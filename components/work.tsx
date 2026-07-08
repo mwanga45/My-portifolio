@@ -4,27 +4,22 @@ const PROJECTS = [
   {
     title: "Logistics Tracking Platform",
     desc: "Real-time shipment tracking system handling thousands of concurrent updates. Built a Go backend with WebSocket streaming and a Next.js dashboard.",
-    tags: ["Go", "Next.js", "PostgreSQL", "WebSocket"],
+    tags: ["Golang", "Next.js", "PostgreSQL", "Server-Sent Events"],
     href: "#",
   },
   {
-    title: "Healthcare Booking API",
-    desc: "HIPAA-conscious appointment platform with a Django REST backend, role-based access, and a React patient portal.",
-    tags: ["Django", "React", "PostgreSQL"],
+    title: "Online  Booking Appointment Platform",
+    desc: "Medque appointment platform with a Golang REST backend, role-based access, and a React patient portal.",
+    tags: ["Golang", "React", "PostgreSQL"],
     href: "#",
   },
   {
-    title: "Creator Analytics Dashboard",
-    desc: "Analytics product for content creators. Express API aggregating multi-platform metrics, visualized in a fast Next.js frontend.",
-    tags: ["Express", "Next.js", "React"],
+    title: "ShopApp",
+    desc: "Analytics product for content creators. Nest.js API aggregating multi-platform metrics, visualized in a fast ReactVite frontend.",
+    tags: ["Nest.js", "PostgreSQL", "React"],
     href: "#",
   },
-  {
-    title: "Inventory Sync Service",
-    desc: "A Go microservice syncing inventory across storefronts with idempotent jobs and a small admin UI for monitoring.",
-    tags: ["Go", "React", "Redis"],
-    href: "#",
-  },
+
 ]
 
 export function Work() {

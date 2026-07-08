@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Alex Rivera — Full-Stack Developer',
+  title: 'Prazoo-TECH Full-Stack Developer',
   description:
     'Freelance full-stack developer specializing in Go, React, Next.js, Express, and Django. Building fast, reliable web applications and APIs.',
   generator: 'v0.app',
