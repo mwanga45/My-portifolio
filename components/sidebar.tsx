@@ -130,16 +130,16 @@ export function Sidebar() {
           </ul>
         </nav>
       </div>
-      <div className = "grid-cols-4 gap-4 lg:grid">
-         <TechImageComponent src="/docker-removebg-preview.png" alt="Docker" width={100} height={100} />
-         <TechImageComponent src="/react-removebg-preview.png" alt="React" width={100} height={100} />
-         <TechImageComponent src="/nextjs-removebg-preview.png" alt="Next.js" width={100} height={100} />
-         <TechImageComponent src="/node-removebg-preview.png" alt="Node.js" width={100} height={100} />
-         <TechImageComponent src="/mysql-removebg-preview.png" alt="MySQL" width={100} height={100} />
-         <TechImageComponent src="/python-removebg-preview.png" alt="Python" width={100} height={100} />
-         <TechImageComponent src="/go-removebg-preview.png" alt="Go" width={100} height={100} />
-         <TechImageComponent src="/flutter-removebg-preview.png" alt="Flutter" width={100} height={100} />
-      </div>
+<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-w-3xl">
+  <TechImageComponent src="/docker-removebg-preview.png" alt="Docker" />
+  <TechImageComponent src="/react-removebg-preview.png" alt="React" />
+  <TechImageComponent src="/nextjs-removebg-preview.png" alt="Next.js" />
+  <TechImageComponent src="/node-removebg-preview.png" alt="Node.js" />
+  <TechImageComponent src="/mysql-removebg-preview.png" alt="MySQL" />
+  <TechImageComponent src="/python-removebg-preview.png" alt="Python" />
+  <TechImageComponent src="/go-removebg-preview.png" alt="Go" />
+  <TechImageComponent src="/flutter-removebg-preview.png" alt="Flutter" />
+</div>
 
       <ul className="mt-12 flex items-center gap-5" aria-label="Social links">
         {SOCIALS.map((s) => {
