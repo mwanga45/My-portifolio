@@ -16,8 +16,8 @@ export function Contact() {
           Tell me about what you&apos;re building and I&apos;ll get back to you
           within a day.
         </p>
-        <Button asChild className="mt-6 font-medium">
-          <a href="mailto:hello@alexrivera.dev">
+        <Button  className="mt-6 font-medium">
+          <a href="issamwanga02@gmail.com" target="_blank" rel="noopener noreferrer">
             <Mail className="size-4" aria-hidden="true" />
             Get in touch
           </a>

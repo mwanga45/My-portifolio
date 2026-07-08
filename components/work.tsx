@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react"
 
 const PROJECTS = [
   {
-    title: "Logistics Tracking Platform",
+    title: "Real-Time Order & Shipment Tracking System",
     desc: "Real-time shipment tracking system handling thousands of concurrent updates. Built a Go backend with WebSocket streaming and a Next.js dashboard.",
     tags: ["Golang", "Next.js", "PostgreSQL", "Server-Sent Events"],
     href: "#",
@@ -10,7 +10,7 @@ const PROJECTS = [
   {
     title: "Online  Booking Appointment Platform",
     desc: "Medque appointment platform with a Golang REST backend, role-based access, and a React patient portal.",
-    tags: ["Golang", "React", "PostgreSQL"],
+    tags: ["Golang", "Flutter", "PostgreSQL"],
     href: "#",
   },
   {

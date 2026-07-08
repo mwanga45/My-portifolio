@@ -2,6 +2,7 @@
 
 import type { SVGProps } from "react"
 import { useEffect, useState } from "react"
+import TechImageComponent from "./ui/tech-image-compo"
 
 const NAV = [
   { id: "about", label: "About" },
@@ -128,6 +129,11 @@ export function Sidebar() {
             })}
           </ul>
         </nav>
+      </div>
+      <div className = "grid-cols-4 gap-4 lg:grid">
+         <TechImageComponent src="/images/tech-stack/go.svg" alt="Go" width={40} height={40} />
+         <TechImageComponent src="/images/tech-stack/react.svg" alt="React" width={40} height={40} />
+         <TechImageComponent src="/images/tech-stack/nextjs.svg" alt="Next.js" width={40} height={40} />
       </div>
 
       <ul className="mt-12 flex items-center gap-5" aria-label="Social links">
