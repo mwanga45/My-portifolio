@@ -17,15 +17,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/golang-removebg-preview.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/golang-removebg-preview.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon-light-32x32.png',
+        url: '/golang-removebg-preview.png',
         type: 'image/svg+xml',
       },
     ],
