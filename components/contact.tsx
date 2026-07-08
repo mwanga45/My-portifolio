@@ -16,12 +16,23 @@ export function Contact() {
           Tell me about what you&apos;re building and I&apos;ll get back to you
           within a day.
         </p>
-        <Button  className="mt-6 font-medium">
-          <a href="issamwanga02@gmail.com" target="_blank" rel="noopener noreferrer">
-            <Mail className="size-4" aria-hidden="true" />
-            Get in touch
-          </a>
-        </Button>
+ <Button
+  variant="outline"
+  className="
+    mt-6 gap-2 font-medium
+    rounded-full px-5 py-5
+    border-border/60 bg-card/60 backdrop-blur-sm
+    shadow-sm hover:shadow-md
+    hover:bg-primary/10 hover:border-primary/40 hover:text-primary
+    transition-all duration-300 ease-out
+    hover:-translate-y-0.5
+  "
+>
+  <a href="mailto:issamwanga02@gmail.com">
+    <Mail className="size-4" aria-hidden="true" />
+    Get in touch
+  </a>
+</Button>
       </div>
     </section>
   )
