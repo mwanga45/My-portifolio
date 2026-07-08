@@ -1,9 +1,9 @@
-import { Sidebar } from "@/components/sidebar"
-import { About } from "@/components/about"
-import { TechStack } from "@/components/tech-stack"
-import { Services } from "@/components/services"
-import { Work } from "@/components/work"
-import { Contact } from "@/components/contact"
+import { Sidebar } from "@/components/sidebar";
+import { About } from "@/components/about";
+import { TechStack } from "@/components/tech-stack";
+import { Services } from "@/components/services";
+import { Work } from "@/components/work";
+import { Contact } from "@/components/contact";
 
 export default function Page() {
   return (
@@ -17,11 +17,13 @@ export default function Page() {
           <Work />
           <Contact />
           <footer className="pt-8 text-sm text-muted-foreground">
-            Designed &amp; built by Alex Rivera. Built with Next.js, React, and
-            Tailwind CSS.
+            Designed &amp; built by Issa Mwanga. This portfolio showcases my
+            software development journey and projects. Built with React,
+            TypeScript, Tailwind CSS, and modern web technologies. ©{" "}
+            {new Date().getFullYear()} All rights reserved.
           </footer>
         </main>
       </div>
     </div>
-  )
+  );
 }
