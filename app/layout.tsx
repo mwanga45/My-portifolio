@@ -10,10 +10,10 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Prazoo-TECH Full-Stack Developer',
+  title: 'Prazoo-tech ',
   description:
-    'Freelance full-stack developer specializing in Go, React, Next.js, Express, and Django. Building fast, reliable web applications and APIs.',
-  generator: 'v0.app',
+    'Freelance full-stack developer specializing in Go, React, Next.js, Express, flutter , Node.js ,and Django. Building fast, reliable web applications and APIs.',
+  generator: 'prazoo-tech',
   icons: {
     icon: [
       {
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon-light-32x32.png',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/golang-removebg-preview.png',
   },
 }
 
